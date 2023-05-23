@@ -7,68 +7,125 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btn_roar"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="185dp" />
+        android:text="Roar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_trombone"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="308dp" />
+        android:layout_marginStart="12dp"
+        android:text="Trombone"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.477" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btn_laugh"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="427dp" />
+        android:text="Laugh"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btn_sword"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="308dp" />
+        android:layout_marginTop="4dp"
+        android:text="Sword"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.444" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btn_boing"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="427dp" />
+        android:layout_marginTop="4dp"
+        android:text="Boing"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_arcadesound"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="185dp" />
+        android:text="Arcade Sound"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btn_bombdrop"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="308dp" />
+        android:layout_marginStart="12dp"
+        android:text="Bomb Drop"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btncowmoo"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="427dp" />
+        android:text="Cow Moo"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline8"
+        app:layout_constraintStart_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/btn_slotmachine"
+        android:layout_width="94dp"
+        android:layout_height="93dp"
+        android:text="Slot Machine"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+
+    <Button
+        android:id="@+id/bsn_orchestra"
+        android:layout_width="96dp"
+        android:layout_height="92dp"
+        android:text="Orchestra"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.477" />
+
+    <Button
+        android:id="@+id/btn_fart"
+        android:layout_width="96dp"
+        android:layout_height="92dp"
+        android:text="Fart"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -85,63 +142,72 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="285dp" />
+        app:layout_constraintGuide_begin="243dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="136dp" />
+        app:layout_constraintGuide_begin="85dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="437dp" />
+        app:layout_constraintGuide_begin="402dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="571dp" />
+        app:layout_constraintGuide_begin="532dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="66dp" />
+        app:layout_constraintGuide_percent="0.05" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="170dp" />
+        app:layout_constraintGuide_percent="0.35" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="261dp" />
+        app:layout_constraintGuide_percent="0.65" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_begin="359dp" />
+        app:layout_constraintGuide_percent="0.95" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_whistle"
         android:layout_width="96dp"
         android:layout_height="92dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="270dp"
-        tools:layout_editor_absoluteY="185dp" />
+        android:text="Whistle"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="@+id/guideline8"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="706dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
