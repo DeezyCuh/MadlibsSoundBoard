@@ -11,6 +11,18 @@ public class MainActivity extends AppCompatActivity {
 
     //all buttons
     private Button btnRoar;
+    private Button btnArcadeSound;
+    private Button btnWhistle;
+    private Button btnOrchestra;
+    private Button btnTrombone;
+    private Button btnSword;
+    private Button btnFart;
+    private Button btnLaugh;
+    private Button btnBoing;
+    private Button btnBombDrop;
+    private Button btnCowMoo;
+    private Button btnSlotMachine;
+
 
     //all media players
     private MediaPlayer mpRoar;
