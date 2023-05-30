@@ -86,7 +86,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
-        android:id="@+id/btncowmoo"
+        android:id="@+id/btn_cowmoo"
         android:layout_width="96dp"
         android:layout_height="92dp"
         android:text="Cow Moo"
@@ -106,7 +106,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline5" />
 
     <Button
-        android:id="@+id/bsn_orchestra"
+        android:id="@+id/btn_orchestra"
         android:layout_width="96dp"
         android:layout_height="92dp"
         android:text="Orchestra"
